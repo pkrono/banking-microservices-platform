@@ -1,0 +1,9 @@
+POST http://localhost:8080/api/v1/account/create
+Content-Type: application/json
+
+{
+  "accountType": "SAVINGS",
+  "currencyCode": "USD"
+}
+
+###
