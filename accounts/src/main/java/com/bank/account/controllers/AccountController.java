@@ -59,6 +59,7 @@ public class AccountController {
     @PutMapping("/update")
     public ResponseEntity<Account> updateAccount(@RequestParam String accountNumber, @RequestBody Account account) {
         LOGGER.info("Updating account {}", accountNumber);
+        accountServices.updateAccount(account);
         return new ResponseEntity<>(account, HttpStatus.OK);
     }
     @GetMapping

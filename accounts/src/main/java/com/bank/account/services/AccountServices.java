@@ -7,7 +7,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Random;
 
 @Service
@@ -61,6 +60,16 @@ public class AccountServices {
         }
         LOGGER.info("Account found : {}" ,account.getAccountNumber());
         return account;
+    }
+    public void updateAccount(Account account){
+        LOGGER.info("Update account: {}", account);
+        Account account1 = accountRepo.findByAccountNumber(account.getAccountNumber());
+        LOGGER.info("DB data: {}", account1.getAccountNumber());
+        if(account1.getAccountNumber() != null){
+            account1.setBalance(account.getBalance());
+            accountRepo.save(account1);
+            LOGGER.info("Account balance updated...");
+        }
     }
 
     public static String generateTimestampID() {
