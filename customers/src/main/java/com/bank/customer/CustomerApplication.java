@@ -26,7 +26,8 @@ public class CustomerApplication {
 //    CommandLineRunner commandLineRunner(ApplicationContext context){
 //
 //        return args -> {
-//            Customer customer = new Customer();
+//            Customer customer = ne
+//            w Customer();
 //            customer.setActive(true);
 //            customer.setEmail("johndoe@test.com");
 //            customer.setPassword(new BCryptPasswordEncoder(10).encode("test@123456"));

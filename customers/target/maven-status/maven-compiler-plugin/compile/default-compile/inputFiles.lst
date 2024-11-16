@@ -1,0 +1,12 @@
+/home/rono/projects/banking-microservices-platform/customers/src/main/java/com/bank/customer/CustomerApplication.java
+/home/rono/projects/banking-microservices-platform/customers/src/main/java/com/bank/customer/auth/AuthenticationService.java
+/home/rono/projects/banking-microservices-platform/customers/src/main/java/com/bank/customer/auth/TokenBody.java
+/home/rono/projects/banking-microservices-platform/customers/src/main/java/com/bank/customer/auth/TokenService.java
+/home/rono/projects/banking-microservices-platform/customers/src/main/java/com/bank/customer/auth/UsersRepo.java
+/home/rono/projects/banking-microservices-platform/customers/src/main/java/com/bank/customer/configs/PasswordConfig.java
+/home/rono/projects/banking-microservices-platform/customers/src/main/java/com/bank/customer/configs/RsaKeyProperties.java
+/home/rono/projects/banking-microservices-platform/customers/src/main/java/com/bank/customer/configs/SecurityConfig.java
+/home/rono/projects/banking-microservices-platform/customers/src/main/java/com/bank/customer/controllers/AuthController.java
+/home/rono/projects/banking-microservices-platform/customers/src/main/java/com/bank/customer/controllers/CustomerController.java
+/home/rono/projects/banking-microservices-platform/customers/src/main/java/com/bank/customer/entities/Customer.java
+/home/rono/projects/banking-microservices-platform/customers/src/main/java/com/bank/customer/services/CustomerService.java

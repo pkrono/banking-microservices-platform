@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  customer-service-app:
+    build: .
+    container_name: customer-service-app
+    command: ["java", "-jar", "/app/customer-app.jar"]
+    ports:
+      - "8080:8080"

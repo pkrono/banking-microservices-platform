@@ -1,0 +1,5 @@
+com/bank/account/entities/Account.class
+com/bank/account/services/AccountServices.class
+com/bank/account/controllers/AccountController.class
+com/bank/account/AccountApplication.class
+com/bank/account/repo/AccountRepo.class
