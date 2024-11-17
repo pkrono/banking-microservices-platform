@@ -268,8 +268,6 @@ The platform provides Swagger UI endpoints for API exploration and testing. Acce
     http://localhost:8080/swagger-ui/index.html
 
     Account Service:
-    http://localhost:8081/swagger-ui/index.html#/account-controller/updateAccount
-
+    http://localhost:8081/swagger-ui/index.html
     Transaction Service:
-    http://localhost:8082/swagger-ui/index.html#/transactions-controller/fundsTransfer
-
+    http://localhost:8082/swagger-ui/index.html
